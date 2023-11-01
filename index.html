@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Language Translator | Leela Manohar Gudivada</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="text-box">
+            <div class="text-input">
+                <textarea  class="from-text" placeholder="Enter Text to Translate"></textarea>
+                <textarea class="to-text"  placeholder="Translation" disabled readonly></textarea>
+            </div>
+
+        <ul id="control-buttons">
+            <li class="box">
+                <div class="icons">
+                    <i class="bx bx-copy"></i>
+                </div>
+                <select  id="select">
+                </select>
+            </li>
+            <li class="exchange-btn">
+                <i class="bx bx-move-horizontal"></i>
+            </li>
+            <li class="box">
+                
+                <select  id="select">
+                </select>
+                <div class="icons">
+                    <i class="bx bx-copy"></i>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+        <button>Translate</button>
+    </div>
+
+
+
+    <script src="languages.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
